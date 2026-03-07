@@ -33,7 +33,7 @@ async def listar_usuarios():
 
 # 2. REGISTRAR NUEVO
 @app.post("/registrar/")
-async def registrar(usuario: str, password: str):
+async def registrar(usuario: str, contraseña: str):
     conn = sqlite3.connect('unach.db')
     cursor = conn.cursor()
     cursor.execute("INSERT INTO usuarios (nombre, clave) VALUES (?, ?)", (usuario, contraseña))

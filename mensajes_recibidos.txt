@@ -12,3 +12,4 @@ CREAR: Usuario 'Juan' registrado en la DB.
 ELIMINAR: El ID 2 fue borrado de la DB.
 EDITAR: El ID 1 fue modificado a 'Emmanuel'.
 EDITAR: El ID 1 fue modificado a 'Emmanuel'.
+CREAR: Usuario 'Caballero' registrado en la DB.
