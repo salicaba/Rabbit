@@ -11,12 +11,10 @@ repository = MySQLAccesoRepository(host="localhost", user="root", password="", d
 publisher = RabbitMQPublisher()
 acceso_service = AccesoService(repository, publisher)
 
-# POST: Recibe datos sin ID (AccesoCreate), pero responde con el ID generado (Acceso)
 @app.post("/accesos/", response_model=Acceso)
 async def registrar_acceso(acceso: AccesoCreate):
     return await acceso_service.registrar_acceso(acceso)
 
-# GET: Devuelve toda la lista con sus IDs
 @app.get("/accesos/", response_model=List[Acceso])
 def obtener_accesos():
     return acceso_service.obtener_accesos()

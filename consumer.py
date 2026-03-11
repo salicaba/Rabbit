@@ -5,7 +5,6 @@ def callback(ch, method, properties, body):
     mensaje = body.decode('utf-8')
     print(f" [x] RabbitMQ recibió: {mensaje}")
     
-    # Procesamiento de tarea secundaria: Guardar en TXT
     with open("mensajes_recibidos.txt", "a", encoding="utf-8") as file:
         file.write(mensaje + "\n")
         
@@ -19,7 +18,6 @@ def main():
     channel.queue_declare(queue='seguridad_logs', durable=True)
     print(' [*] Consumidor de logs activo. Esperando mensajes...')
 
-    # qos(1) significa que no le mandará un nuevo mensaje hasta que termine de procesar el actual
     channel.basic_qos(prefetch_count=1)
     channel.basic_consume(queue='seguridad_logs', on_message_callback=callback)
 
