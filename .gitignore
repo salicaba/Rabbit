@@ -1,0 +1,4 @@
+rabbit/
+__pycache__/
+*.pyc
+mensajes_recibidos.txt

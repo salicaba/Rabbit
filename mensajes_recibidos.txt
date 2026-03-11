@@ -1,15 +1,4 @@
-Hola, soy unach de LIDTS 6M
-Hola, soy unach de LIDTS 6M
-Hola a todos
-Hola Mundo
-UNACH
-UNACH 3
-Usuario Emmanuel registrado con éxito en la DB local.
-ELIMINAR: El usuario con ID 1 fue borrado.
-CREAR: Usuario 'Emmanuel' registrado.
-EDITAR: El ID 1 ahora es 'Salinas'.
-CREAR: Usuario 'Juan' registrado en la DB.
-ELIMINAR: El ID 2 fue borrado de la DB.
-EDITAR: El ID 1 fue modificado a 'Emmanuel'.
-EDITAR: El ID 1 fue modificado a 'Emmanuel'.
-CREAR: Usuario 'Caballero' registrado en la DB.
+[5:52 pm] SEGURIDAD: Ingreso de Juan al área de salud.
+[5:52 pm] SEGURIDAD: Ingreso de Juan al área de salud.
+[6 pm] SEGURIDAD: Ingreso de Pedro al área de Ingeniería.
+[6 pm] SEGURIDAD: Ingreso de María al área de Salud.
