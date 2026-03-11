@@ -2,3 +2,4 @@
 [5:52 pm] SEGURIDAD: Ingreso de Juan al área de salud.
 [6 pm] SEGURIDAD: Ingreso de Pedro al área de Ingeniería.
 [6 pm] SEGURIDAD: Ingreso de María al área de Salud.
+[6:25 pm] SEGURIDAD: Ingreso de Miguel al área de Agricultor.
